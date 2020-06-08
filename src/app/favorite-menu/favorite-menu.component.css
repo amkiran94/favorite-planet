@@ -1,0 +1,26 @@
+.nav {
+    display: flex;
+    list-style: none;
+    background-color: #4b4a4a;
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+
+.nav-item {
+    margin: 20px;
+    color: #ffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-right: 100px;
+    outline: none;
+    border: none;
+}
+
+.nav-item:hover{
+    transition: 80ms;
+    transform: scale(1.1); 
+
+}
+

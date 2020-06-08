@@ -1,0 +1,13 @@
+<form [formGroup]="planetsGroup" (ngSubmit)="markAsFavorites()">
+    <ul>
+        <li *ngFor="let planet of planets">
+            <div class="planet">
+                <input class="list-all" type="checkbox" [value]="planet.id" (change)="onChange($event)">
+                <label>{{planet.id}}</label>
+            </div>
+        </li>
+    </ul>
+    <button class="btn" type="submit">Mark as favorites</button><br><br>
+    <span>{{planetsGroup.value | json}}</span><br>
+    <span class="msg">{{msg}}</span>
+</form>

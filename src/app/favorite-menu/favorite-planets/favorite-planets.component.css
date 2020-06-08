@@ -1,0 +1,6 @@
+ul{
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
